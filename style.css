@@ -12,9 +12,6 @@ body {
     padding: 50px;
 }
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
 header {
     display: flex;
     flex-direction: row;
@@ -28,7 +25,6 @@ header {
 header nav {
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid white; */
     width: 300px;
 }
 
@@ -55,8 +51,6 @@ main img {
 
 main h1 {
     font-weight: 700;
-    /* padding: 0 400px;
-    margin: 21px 100px; */
     width: 20em;
 }
 
@@ -79,15 +73,12 @@ main p {
 .position-of-bg {
     display: flex;
     justify-content: center;
-    /* border: 1px solid white; */
 }
 
 .desktop-bg-transition {
     width: max-content;
     position: absolute;
     top: 765px;
-    /* border: 1px solid white; */
-    /* z-index: 1; */
 }
 
 .mobile-bg-transition {
@@ -107,9 +98,7 @@ main p {
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
     gap: 80px;
     justify-content: space-between;
-    /* border: 1px solid white; */
     width: 50em;
-    /* height: 90em; */
 }
 
 .grid-components div {
@@ -117,15 +106,7 @@ main p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* border: 1px solid white; */
-    /* width: 17em;
-    height: 17em; */
 }
-
-/* .grid-components div img {
-    width: 80px;
-    height: 80px;
-} */
 
 .grid-components div h4, .grid-components div p {
     color: hsl(0, 0%, 100%);
@@ -149,14 +130,12 @@ main p {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    /* padding: 0 120px; */
 }
 
 .productive div {
     display: flex;
     flex-direction: column;
     width: 700px;
-    /* padding: 0 200px 0 0px; */
 }
 
 .img-productive {
@@ -185,12 +164,9 @@ main p {
     display: flex;
     flex-direction: column;
     justify-self: start;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .productive div hr {
-    /* justify-self: start; */
     border: 1px solid hsl(176, 68%, 64%);
     width: 160px;
     margin: 0;
@@ -199,7 +175,6 @@ main p {
 .reviews {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
     margin-top: 100px;
 }
@@ -244,15 +219,10 @@ main p {
 }
 
 .early-access {
-    /* position: absolute;  */
-    /* background: hsl(219, 30%, 18%); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* top: 1000px; */
-    /* width: 100px; */
-    /* border: 1px solid white; */
 }
 
 .early-access .accessing {
@@ -262,7 +232,6 @@ main p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* border: 1px solid green; */
     box-shadow: 5px 5px 10px hsla(216, 53%, 9%, 80%);
     border-radius: 7px;
     padding: 40px;
@@ -275,13 +244,10 @@ main p {
     margin-top: 0;
 }
 
-/* .early-access .accessing div {} */
-
 .early-access .accessing p {
     margin: 0 0 30px 0;
     padding: 0 120px;
     font-size: 14px;
-    /* font-weight: 400; */
 }
 
 .early-access .accessing div {
@@ -290,7 +256,6 @@ main p {
     justify-content: space-between;
     align-items: center;
     width: 45.5em;
-    /* border: 1px solid white; */
 }
 
 .early-access .accessing div .email {
@@ -344,7 +309,6 @@ footer .ffooter .fffooter .location {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
-    /* align-items: center; */
 
 }
 
@@ -375,7 +339,6 @@ footer .ffooter .fffooter li {
 
 .attribution { 
     font-size: 11px; 
-    /* text-align: center;  */
 }
     
 .attribution a { 
@@ -393,14 +356,12 @@ footer .ffooter .fffooter li {
     }
 
     .mobile-bg-transition {
-        /* position: absolute; */
         visibility: visible;
         top: 350px;
     }
 
     span {
         position: absolute;
-        /* border: 1px solid white; */
         width: 100%;
         height: 300px;
         top: 445px;
@@ -408,9 +369,7 @@ footer .ffooter .fffooter li {
     }
 
     header nav {
-        /* display: flex; */
         justify-content: space-between;
-        /* border: 1px solid white; */
         width: 180px;
     }
 
@@ -446,184 +405,95 @@ footer .ffooter .fffooter li {
     }
 
     .img-productive {
-        /* margin: 0 50px 0 100px; */
         width: 300px;
     }
 
     .productive div {
         justify-content: center;
         align-items: center;
-        /* width: 30em; */
     }
 
     .productive div h1 {
         font-size: 22px;
         padding: 0;
-        /* font-weight: 700; */
     }
     
     .productive div p {
         width: 24em;
-        /* margin-top: 0; */
         padding: 0;
-        /* font-weight: 400; */
     }
     
-    /* .productive div a {
-        display: flex;
-        color: hsl(176, 68%, 64%);
-        text-decoration: none;
-        align-items: center;
-    } */
-    
     .productive div div {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-self: start; */
         margin-right: 220px;
-        /* justify-content: center; */
-        /* align-items: center; */
     } 
-
-    /* .reviews {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-    } */
-    
     
     .bg-quotes {
         width: 45px;
         height: 40px;
         margin-right: 310px;
-        /* border: 1px solid white; */
     }
     
     .clients {
         flex-direction: column;
-        /* justify-content: space-between; */
         align-items: center;
         width: 500px;
         height: 700px;
-        /* border: 1px solid white; */
     }
     
     .client {
         box-shadow: 0 0 15px hsla(219, 30%, 18%, 50%);
     }
-
-    .early-access {
-        /* position: absolute;  */
-        /* background: hsl(219, 30%, 18%); */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* top: 1000px; */
-        /* width: 100px; */
-        /* border: 1px solid white; */
-    }
     
     .early-access .accessing {
-        /* background: hsl(217, 28%, 15%); */
-        /* position: absolute; */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        /* text-align: center; */
-        /* border: 1px solid green; */
-        /* box-shadow: 5px 5px 10px hsla(216, 53%, 9%, 80%); */
-        /* border-radius: 7px; */
-        /* padding: 40px; */
         width: 18em;
-        /* margin-top: 30; */
         top: 219em;
     }
     
     .early-access .accessing h1 {
-        /* margin-top: 0; */
         font-size: 17px;
     }
     
     /* .early-access .accessing div {} */
     
     .early-access .accessing p {
-        /* margin: 0 0 30px 0; */
         padding: 0;
-        /* font-size: 14px; */
-        /* font-weight: 400; */
     }
     
     .early-access .accessing div {
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: space-between; */
-        /* align-items: center; */
-        /* width: 20em; */
         height: 7em;
-        /* border: 1px solid white; */
     }
-
-    /* .early-access .accessing div .email, .early-access .accessing div .g-start {
-    } */
     
     .early-access .accessing div .email {
         width: 20em;
         height: 3.5em;
-        /* border-radius: 25px; */
-        /* padding: 0 0 0 30px; */
-        /* border: none; */
-    }
-    
-    .early-access .accessing div .email:focus {
-        /* outline: none; */
-    }
+    }    
     
     .early-access .accessing div .g-start {
-        /* margin-top: 0; */
         padding: 15px 83px;
-        /* font-size: 13px; */
     }
 
     footer {
-        /* background: hsl(216, 53%, 9%); */
-        /* display: flex; */
-        /* flex-direction: column; */
         padding: 120px 50px;
-        /* margin-top: 25em; */
     }
     
     footer div .logo {
-        /* width: 176px; */
-        /* height: 52px; */
     }
     
     footer .ffooter {
-        /* margin-top: 100px; */
-        /* flex-direction: row; */
     }
     
     footer .ffooter .fffooter {
-        /* display: flex; */
         flex-direction: column;
-        /* justify-content: space-between; */
         align-items: start;
         width: 20em;
-        /* height: 30em; */
     }
     
     footer .ffooter .fffooter .location img {
         margin-right: 25px;
     }
-
-    /* footer .ffooter .fffooter .contacts img {
-        width: 13px;
-    } */
     
     footer .ffooter .fffooter .location p {
-        /* margin: 0; */
         width: 290px;
     }
     
