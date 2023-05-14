@@ -411,6 +411,7 @@ footer .ffooter .fffooter li {
     .productive div {
         justify-content: center;
         align-items: center;
+        width: 25em;
     }
 
     .productive div h1 {
@@ -462,6 +463,7 @@ footer .ffooter .fffooter li {
     .early-access .accessing div {
         flex-direction: column;
         height: 7em;
+        width: 15em;
     }
     
     .early-access .accessing div .email {
@@ -470,7 +472,8 @@ footer .ffooter .fffooter li {
     }    
     
     .early-access .accessing div .g-start {
-        padding: 15px 83px;
+        padding: 15px 45px;
+        width: 16em;
     }
 
     footer {
