@@ -108,11 +108,12 @@ main p {
     text-align: center;
 }
 
-.grid-components div h4, .grid-components div p {
+.grid-components div h1, .grid-components div p {
     color: hsl(0, 0%, 100%);
 }
 
-.grid-components div h4 {
+.grid-components div h1 {
+    font-size: 1em;
     font-weight: 700;
     margin-bottom: 1px;
 }
@@ -437,7 +438,7 @@ footer .ffooter .fffooter li {
     .clients {
         flex-direction: column;
         align-items: center;
-        width: 500px;
+        width: 480px;
         height: 700px;
     }
     
